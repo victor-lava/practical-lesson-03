@@ -1,0 +1,12 @@
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border-radius: 26px;
+    background-color: $color-primary;
+    padding: 12px 20px;
+    color: white;
+}

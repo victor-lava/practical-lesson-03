@@ -1,0 +1,43 @@
+.navigation {
+
+    padding: 24px;
+
+    .logo {
+        margin-right: auto;
+        img {
+            padding: 6px 0;
+            vertical-align: middle;
+        }
+    }
+
+    .menu-toggle {
+        font-size: 2em;
+        background: none;
+        border: 0;
+        outline: 0;
+        margin-left: .85em;
+        color: $color-secondary;
+    }
+
+    ul {
+        padding: 6px 0;
+        list-style: none;
+
+        li {
+            padding-top: 3px;
+            &.active a{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+
+    a {
+        margin-left: 3em;
+        &:not(.button) {
+            color: $color-secondary;
+            padding-bottom: 2px;
+        }
+    }
+
+
+}

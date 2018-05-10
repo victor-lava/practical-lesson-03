@@ -1,0 +1,174 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", serif;
+  color: #797979;
+  font-size: 14px;
+  line-height: 30px; }
+
+h1 {
+  font-size: 47.88px;
+  font-weight: bold;
+  line-height: 75px; }
+
+h2 {
+  font-size: 29.96px;
+  font-weight: bold; }
+
+h3 {
+  font-size: 23.94px;
+  font-weight: bold; }
+
+h4 {
+  font-size: 19.88px;
+  font-weight: bold; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #ff64c2; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.small {
+  max-height: 150px; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.search-form {
+  width: 50%; }
+  .search-form .input-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+    .search-form .input-wrapper .input {
+      width: 65%;
+      background-color: white;
+      border-top-left-radius: 10em;
+      border-bottom-left-radius: 10em; }
+      .search-form .input-wrapper .input input {
+        background: none;
+        outline: none;
+        border: 0;
+        padding: 27.5px 27px; }
+    .search-form .input-wrapper button {
+      width: 25%;
+      outline: none;
+      border: 0;
+      background-color: #ff64c2;
+      color: white;
+      border-top-right-radius: 10em;
+      border-bottom-right-radius: 10em; }
+
+section.intro {
+  min-height: 810px;
+  background-size: cover;
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  color: white;
+  position: relative; }
+  section.intro .text {
+    max-width: 70%;
+    text-align: center; }
+    section.intro .text h3 {
+      text-transform: uppercase;
+      font-style: italic; }
+      section.intro .text h3:after, section.intro .text h3:before {
+        content: "";
+        min-width: 100px;
+        display: inline-block;
+        height: 2px;
+        background-color: white;
+        margin: 7px 30px; }
+  section.intro .social {
+    position: absolute;
+    bottom: 75px; }
+    section.intro .social ul {
+      list-style: none;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      section.intro .social ul li:first-child img {
+        margin: 15px auto; }
+      section.intro .social ul li:nth-child(2) img {
+        margin: 20px auto; }
+      section.intro .social ul li:last-child img {
+        margin: 17px auto; }
+      section.intro .social ul a {
+        border: 3px solid #ff64c2;
+        border-radius: 100em;
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin: 0 10px; }
+        section.intro .social ul a img {
+          display: block; }
+
+.navigation {
+  padding: 24px; }
+  .navigation .logo {
+    margin-right: auto; }
+    .navigation .logo img {
+      padding: 6px 0;
+      vertical-align: middle; }
+  .navigation .menu-toggle {
+    font-size: 2em;
+    background: none;
+    border: 0;
+    outline: 0;
+    margin-left: .85em;
+    color: #797979; }
+  .navigation ul {
+    padding: 6px 0;
+    list-style: none; }
+    .navigation ul li {
+      padding-top: 3px; }
+      .navigation ul li.active a {
+        border-bottom: 2px solid white; }
+  .navigation a {
+    margin-left: 3em; }
+    .navigation a:not(.button) {
+      color: #797979;
+      padding-bottom: 2px; }
+
+.button-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.button {
+  border-radius: 26px;
+  background-color: #ff64c2;
+  padding: 12px 20px;
+  color: white; }

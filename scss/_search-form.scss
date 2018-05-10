@@ -1,0 +1,32 @@
+.search-form {
+    width: 50%;
+
+    .input-wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+
+        .input {
+            width: 65%;
+            background-color: white;
+            border-top-left-radius: 10em;
+            border-bottom-left-radius: 10em;
+            input {
+                background: none;
+                outline: none;
+                border: 0;
+                padding: 27.5px 27px;
+            }
+        }
+
+        button {
+            width: 25%;
+            outline: none;
+            border: 0;
+            background-color: $color-primary;
+            color: white;
+            border-top-right-radius: 10em;
+            border-bottom-right-radius: 10em;
+        }
+    }
+
+}
