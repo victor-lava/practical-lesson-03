@@ -1,0 +1,17 @@
+section.benefits {
+    text-align: center;
+    padding: 6em 0;
+
+    .title {
+        margin-bottom: 5em;
+    }
+    h2 {font-size: $font-size-h1;}
+
+    .service {
+        i, h4 { color: $color-primary; }
+
+        i {
+            font-size: 64px;
+        }
+    }
+}

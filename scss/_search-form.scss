@@ -5,12 +5,19 @@
         display: flex;
         flex-wrap: nowrap;
 
+        img {
+            width: 28px !important;
+            height: 28px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
         .input {
             width: 65%;
             background-color: white;
             border-top-left-radius: 10em;
             border-bottom-left-radius: 10em;
             input {
+                width: 100%;
                 background: none;
                 outline: none;
                 border: 0;

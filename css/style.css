@@ -58,12 +58,18 @@ ul {
     display: flex;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap; }
+    .search-form .input-wrapper img {
+      width: 28px !important;
+      height: 28px;
+      vertical-align: middle;
+      margin-right: 10px; }
     .search-form .input-wrapper .input {
       width: 65%;
       background-color: white;
       border-top-left-radius: 10em;
       border-bottom-left-radius: 10em; }
       .search-form .input-wrapper .input input {
+        width: 100%;
         background: none;
         outline: none;
         border: 0;
@@ -158,6 +164,38 @@ section.intro {
     .navigation a:not(.button) {
       color: #797979;
       padding-bottom: 2px; }
+
+section.benefits {
+  text-align: center;
+  padding: 6em 0; }
+  section.benefits .title {
+    margin-bottom: 5em; }
+  section.benefits h2 {
+    font-size: 47.88px; }
+  section.benefits .service i, section.benefits .service h4 {
+    color: #ff64c2; }
+  section.benefits .service i {
+    font-size: 64px; }
+
+section.services {
+  background-color: #ff64c2;
+  padding: 140px 0; }
+  section.services .service {
+    background-color: white;
+    padding: 26px; }
+    section.services .service img {
+      float: left;
+      display: block;
+      margin-bottom: 80px;
+      margin-right: 25px; }
+    section.services .service h3 {
+      margin-top: 0; }
+    section.services .service:first-child {
+      margin-right: 14px; }
+    section.services .service:last-child {
+      margin-left: 14px; }
+    section.services .service p {
+      margin-bottom: 0; }
 
 .button-wrapper {
   display: -webkit-box;
